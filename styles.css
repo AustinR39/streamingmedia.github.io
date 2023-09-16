@@ -1,0 +1,48 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #021B79, #0575E6);
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  nav {
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover, nav ul li a:focus{
+    color: #B3D4FC;
+  }
+  
+  h1, h2, h3, p, figure {
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  audio {
+    width: 100%;
+  }
